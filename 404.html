@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page not found | A Falcon</title>
+    <meta name="description" content="The page you were looking for does not exist.">
+    <meta name="robots" content="noindex, follow">
+    <meta name="theme-color" content="#0d0f14">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <svg class="sr-only" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+      <symbol id="i-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/></symbol>
+      <symbol id="i-x" viewBox="0 0 24 24"><path d="M6 6 18 18"/><path d="M18 6 6 18"/></symbol>
+    </svg>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="shell header__inner">
+        <a class="brand" href="index.html" aria-label="A Falcon home">
+          <img class="brand__mark" src="images/afalcon-icon.png" width="64" height="64" alt="">
+          <span class="brand__name">A Falcon</span>
+        </a>
+
+        <nav class="nav-primary" aria-label="Primary">
+          <a href="index.html" data-nav>Overview</a>
+          <a href="index.html#features" data-nav>Features</a>
+          <a href="index.html#how-it-works" data-nav>How it works</a>
+          <a href="falcon/" data-nav>App details</a>
+        </nav>
+
+        <div class="header__cta">
+          <a class="button button--primary button--small" href="https://play.google.com/store/apps/details?id=com.anonymous.ridemate&amp;pcampaignid=web_share" target="_blank" rel="noopener noreferrer" aria-label="Get the app (opens in a new tab)">
+            Get the app
+            <svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+          </a>
+        </div>
+
+        <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-navigation">
+          <svg class="icon icon--menu" width="20" height="20" aria-hidden="true"><use href="#i-menu"></use></svg>
+          <svg class="icon icon--close" width="20" height="20" aria-hidden="true"><use href="#i-x"></use></svg>
+        </button>
+
+        <div class="mobile-nav" id="mobile-navigation" hidden>
+          <nav class="mobile-nav__links" aria-label="Mobile">
+            <a href="index.html" data-nav>Overview</a>
+            <a href="index.html#features" data-nav>Features</a>
+            <a href="index.html#how-it-works" data-nav>How it works</a>
+            <a href="falcon/" data-nav>App details</a>
+          </nav>
+          <a class="button button--primary button--full" href="https://play.google.com/store/apps/details?id=com.anonymous.ridemate&amp;pcampaignid=web_share" target="_blank" rel="noopener noreferrer" aria-label="Get the app (opens in a new tab)">
+            Get the app
+            <svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <div class="shell not-found">
+        <img class="not-found__mark" src="images/afalcon-icon.png" width="64" height="64" alt="">
+        <p class="eyebrow">Error 404</p>
+        <h1>This path is off the map.</h1>
+        <p>The page you were looking for does not exist. Let us get you back to something useful.</p>
+        <div class="not-found__actions">
+          <a class="button button--secondary" href="index.html">Back to home</a>
+          <a class="button button--primary" href="https://play.google.com/store/apps/details?id=com.anonymous.ridemate&amp;pcampaignid=web_share" target="_blank" rel="noopener noreferrer" aria-label="Get the app (opens in a new tab)">
+            Get the app
+            <svg class="icon" width="16" height="16" aria-hidden="true"><use href="#i-arrow-up-right"></use></svg>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer__grid">
+        <div class="footer__about">
+          <a class="brand" href="index.html" aria-label="A Falcon home">
+            <img class="brand__mark" src="images/afalcon-icon.png" width="64" height="64" alt="">
+            <span class="brand__name">A Falcon</span>
+          </a>
+          <p>A Falcon is a motorcycle riding community. Find riders near you, swipe to match, plan group rides, and chat with your crew — all in one app.</p>
+        </div>
+        <nav aria-label="Product">
+          <h2 class="footer__title">Product</h2>
+          <ul class="footer-links">
+            <li><a href="index.html">Overview</a></li>
+            <li><a href="index.html#features">Features</a></li>
+            <li><a href="falcon/">App details</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Company">
+          <h2 class="footer__title">Company</h2>
+          <ul class="footer-links">
+            <li><a href="index.html#how-it-works">How it works</a></li>
+            <li><a href="privacy/">Privacy</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="shell footer__bottom">
+        <p>© 2026 A Falcon. All rights reserved.</p>
+        <p>Find your road.</p>
+      </div>
+    </footer>
+  </body>
+</html>
